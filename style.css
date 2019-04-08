@@ -1,0 +1,106 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: #777; 
+    font-family: 'Arial';
+    color: '#777';
+    width: '960px';
+    font-size: '18px';
+}
+    .header-box, .nav-box, .footer-box {
+    background-color: #ebebeb;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    }
+    .footer-box {
+        margin-bottom: 100px;
+    }
+section {
+    background-color: #ebebeb;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 80px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    float: left;
+    box-sizing: border-box;
+    width: 495px;
+
+}
+aside {
+    background-color: #ebebeb;
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 200px;
+    padding-left: 30px;
+    float: left;
+    box-sizing: border-box;
+    width: 465px;
+
+}
+article {
+    background-color: #777;
+    color: #ebebeb;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    height: 190px;
+}
+.h1-h2-h3 {
+    background-color: #ebebeb;
+    color: #777;
+    position: relative;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+#P, #h1 {
+    bottom: -10px;
+}
+.P {
+    background-color: #ebebeb;
+    color: #777;
+   margin-top: 20px;
+   position: relative;
+   padding-top: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+
